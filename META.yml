@@ -4,6 +4,7 @@ author:
   - 'Masayuki Matsuki <y.songmu@gmail.com>'
 build_requires:
   Test::More: 0.98
+  parent: 0
 configure_requires:
   CPAN::Meta: 0
   CPAN::Meta::Prereqs: 0
@@ -27,14 +28,18 @@ no_index:
 provides:
   Teng::Plugin::SearchJoined:
     file: lib/Teng/Plugin/SearchJoined.pm
-    version: 0.01
+    version: 0.02
   Teng::Plugin::SearchJoined::Iterator:
     file: lib/Teng/Plugin/SearchJoined/Iterator.pm
     version: 0
 requires:
+  Class::Accessor::Lite: 0
+  SQL::Maker: 0
+  SQL::Maker::Plugin::JoinSelect: 0
+  Teng: 0
   perl: 5.008001
 resources:
   bugtracker: https://github.com/Songmu/p5-Teng-Plugin-SearchJoined/issues
   homepage: https://github.com/Songmu/p5-Teng-Plugin-SearchJoined
   repository: git://github.com/Songmu/p5-Teng-Plugin-SearchJoined.git
-version: 0.01
+version: 0.02
