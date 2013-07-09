@@ -28,7 +28,7 @@ no_index:
 provides:
   Teng::Plugin::SearchJoined:
     file: lib/Teng/Plugin/SearchJoined.pm
-    version: 0.02
+    version: 0.03
   Teng::Plugin::SearchJoined::Iterator:
     file: lib/Teng/Plugin/SearchJoined/Iterator.pm
     version: 0
@@ -42,4 +42,4 @@ resources:
   bugtracker: https://github.com/Songmu/p5-Teng-Plugin-SearchJoined/issues
   homepage: https://github.com/Songmu/p5-Teng-Plugin-SearchJoined
   repository: git://github.com/Songmu/p5-Teng-Plugin-SearchJoined.git
-version: 0.02
+version: 0.03
