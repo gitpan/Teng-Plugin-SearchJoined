@@ -3,7 +3,7 @@ use 5.008001;
 use strict;
 use warnings;
 
-our $VERSION = "0.03";
+our $VERSION = "0.04";
 
 use Teng::Plugin::SearchJoined::Iterator;
 use SQL::Maker;
@@ -83,6 +83,8 @@ Teng::Plugin::SearchJoined is a Plugin of Teng for joined query.
 =head2 Method
 
 =head3 C<< $itr:Teng::Plugin::SearchJoined::Iterator = $db->search_joined($table, $join_conds, \%where, \%opts) >>
+
+Return L<Teng::Plugin::SearchJoined::Iterator> object.
 
 C<$table>, C<\%where> and C<\%opts> are same as arguments of L<Teng>'s C<search> method.
 

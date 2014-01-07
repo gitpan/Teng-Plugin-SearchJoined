@@ -10,7 +10,7 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Minilla/v0.5.3, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Minilla/v0.11.0, CPAN::Meta::Converter version 2.132510'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -25,13 +25,13 @@ no_index:
     - eg
     - examples
     - author
+    - builder
 provides:
   Teng::Plugin::SearchJoined:
     file: lib/Teng/Plugin/SearchJoined.pm
-    version: 0.03
+    version: 0.04
   Teng::Plugin::SearchJoined::Iterator:
     file: lib/Teng/Plugin/SearchJoined/Iterator.pm
-    version: 0
 requires:
   Class::Accessor::Lite: 0
   SQL::Maker: 0
@@ -42,4 +42,4 @@ resources:
   bugtracker: https://github.com/Songmu/p5-Teng-Plugin-SearchJoined/issues
   homepage: https://github.com/Songmu/p5-Teng-Plugin-SearchJoined
   repository: git://github.com/Songmu/p5-Teng-Plugin-SearchJoined.git
-version: 0.03
+version: 0.04

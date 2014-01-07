@@ -4,8 +4,10 @@
       "Masayuki Matsuki <y.songmu@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.5.3",
-   "license" : "perl_5",
+   "generated_by" : "Minilla/v0.11.0",
+   "license" : [
+      "perl_5"
+   ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
@@ -19,7 +21,8 @@
          "share",
          "eg",
          "examples",
-         "author"
+         "author",
+         "builder"
       ]
    },
    "prereqs" : {
@@ -57,7 +60,7 @@
    "provides" : {
       "Teng::Plugin::SearchJoined" : {
          "file" : "lib/Teng/Plugin/SearchJoined.pm",
-         "version" : "0.03"
+         "version" : "0.04"
       },
       "Teng::Plugin::SearchJoined::Iterator" : {
          "file" : "lib/Teng/Plugin/SearchJoined/Iterator.pm"
@@ -74,5 +77,5 @@
          "web" : "https://github.com/Songmu/p5-Teng-Plugin-SearchJoined"
       }
    },
-   "version" : "0.03"
+   "version" : "0.04"
 }
