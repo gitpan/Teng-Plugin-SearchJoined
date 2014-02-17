@@ -29,17 +29,17 @@ no_index:
 provides:
   Teng::Plugin::SearchJoined:
     file: lib/Teng/Plugin/SearchJoined.pm
-    version: 0.04
+    version: 0.05
   Teng::Plugin::SearchJoined::Iterator:
     file: lib/Teng/Plugin/SearchJoined/Iterator.pm
 requires:
   Class::Accessor::Lite: 0
   SQL::Maker: 0
   SQL::Maker::Plugin::JoinSelect: 0
-  Teng: 0
+  Teng: 0.21
   perl: 5.008001
 resources:
   bugtracker: https://github.com/Songmu/p5-Teng-Plugin-SearchJoined/issues
   homepage: https://github.com/Songmu/p5-Teng-Plugin-SearchJoined
   repository: git://github.com/Songmu/p5-Teng-Plugin-SearchJoined.git
-version: 0.04
+version: 0.05
